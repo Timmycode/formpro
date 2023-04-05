@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form payment</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header>
+    <img src="img/Farget (2).png" alt="text farmus">
+    </header>
+    <h1>Form of online payment by Paypal</h1>
+    <p>What would you buy</p><hr>
+    <form action="formpro" method="post">
+
+        <section>
+            <label class="ola">How many shoes do you buy?</label>
+                <div class="olas">
+                <input id="p1" type="checkbox" />
+                <label for="p1">1-$10</label><br>
+                <input id="p2" type="checkbox" />
+                <label for="p2">2-$20</label><br>
+                <input id="p3" type="checkbox" />
+                <label for="p3">3-$30</label><br>
+                </div>
+        </section>
+
+
+        <label class="view">What color do you want? 
+        <select >
+            <option value="0">Red</option>
+            <option value="1">Black</option>
+            <option value="2">Yellow</option>
+            <option value="3">Pink</option>
+            <option value="4">Green</option>
+        </select>
+        </label>
+
+        
+    <section class="vie">
+        <label for="fullname">name:
+            <input id="first-name" name="first-name" type="text" placeholder="First Name" required/>
+            <input id="last-name" name="last-name" type="text" placeholder="Last Name" required/>
+        </label> 
+    </section>
+
+    <section class="ef">
+        <label  for="street">Street Address 
+        <div class="el">
+            <input  id="address" name="address" type="text" required/><br>
+            <label>Street address</label><br>
+            <input  id="address1" name="address" type="text" required/><br>
+            <label>Address line 2</label><br>
+            <input  id="address2" name="address" type="text" required/><br>
+            <label>City</label><br>
+            <input  id="address3" name="address" type="text" required/><br>
+            <label>State/Province/Region</label><br>
+            <input  id="address4" name="address" type="text" required/><br>
+            <label>Postal/ZIP</label><br>
+            <input  id="address5" name="address" type="text" required/><br>
+            <label>Country</label><br>
+        </div>
+        </label> 
+    </section>
+
+    <section class="ema">
+        <label for="email">Email 
+            <input id="email" name="email" type="email" required/>
+        </label>
+    </section>
+    
+
+    <section class="pose">
+        <label>Payment Method
+        <select>
+            <option value="0">Paypal only</option>
+            <option value="1">Debit card</option>
+            <option value="2">Transfer</option>
+        </select>
+        </label>
+    </section>
+        <button type="submit" value="Submit">Submit</button>
+    </form>
+    
+  </body>
+</html>
+

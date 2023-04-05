@@ -1,0 +1,46 @@
+p {padding: 0px;
+    margin: 0px;
+    font-size: 10px;
+    font-weight: 500;
+    font-size: large;}
+
+ h1 {padding: 0px;
+     margin: auto;}
+
+label {margin-bottom: 50px;}
+
+img {width: 80px;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     padding-right: 10px;
+     padding-left: 10px;}
+
+.ola {padding: 0%;}
+.ola, .olas {display: inline-table;
+             padding-bottom: 5px;}
+.ef, .el {display: inline-table;
+          margin-bottom: 5px;
+          padding-top: 0px;}
+
+.ef {padding-left: 100px;}
+
+.view {padding-top: 15px;
+       padding-bottom: 25px;
+       padding-left: 35px;}
+
+.vie {padding-top: 15px;
+       padding-bottom: 25px;
+       padding-left: 155px;}
+
+body{max-width: 700px;
+     margin: auto;
+     padding-bottom: 30px;}
+
+.pose {padding-bottom: 20px;
+       padding-top: 20px;
+       padding-left: 85px;}
+
+.ema {padding-left: 155px;}
+
+
+.play{padding-bottom: 30px;}
